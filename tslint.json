@@ -1,0 +1,5 @@
+{
+    "extends": [
+        "@metaclinic/lint-config/tslint.json"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "fs-promise-native",
+  "version": "0.9.0",
+  "description": "Export promisified fs functions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sparebytes/node-fs-promise-native.git"
+  },
+  "keywords": ["fs", "promise", "native", "async", "await", "typesscript"],
+  "author": "Franklin Davenport",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "clean": "rimraf dist src/**/*.js src/**/*.js.map src/**/*.d.ts",
+    "build": "npm run clean && tsc",
+    "build:watch": "tsc -w",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^21.1.8",
+    "@types/node": "^8.0.27",
+    "jest": "^21.2.1",
+    "rimraf": "^2.5.4",
+    "ts-jest": "^21.2.4",
+    "typescript": "^2.6.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "/src/(__tests__/.*|.*\\.(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  }
+}
