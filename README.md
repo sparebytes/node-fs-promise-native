@@ -18,13 +18,13 @@ npm install fs-promise-native
 ```js
 const fspn = require('fs-promise-native');
 
-// .then
+// thenable
 fspn.readFile("./example.txt").then(file => console.log(file));
 
 // async/await
 async function example() {
     let file = await fspn.readFile("./example.txt");
-    console.log(file));
+    console.log(file);
 }
 
 ```

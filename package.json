@@ -1,6 +1,6 @@
 {
   "name": "fs-promise-native",
-  "version": "0.9.1",
+  "version": "1.0.0",
   "description": "Export promisified fs functions",
   "license": "MIT",
   "repository": {
@@ -10,10 +10,11 @@
   "keywords": [
     "fs",
     "promise",
+    "thenable",
     "native",
     "async",
     "await",
-    "typesscript"
+    "typescript"
   ],
   "author": "Franklin Davenport",
   "main": "dist/index.js",
