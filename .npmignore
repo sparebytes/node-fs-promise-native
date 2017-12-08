@@ -1,14 +1,20 @@
-/config
-/dist
-src/__tests__/*
-src/*.test.ts
-src/*.test.d.ts
-src/*.test.js
-src/*.test.js.map
-src/*.spec.ts
-src/*.spec.d.ts
-src/*.spec.js
-src/*.spec.js.map
+# Test Files
+/src/__tests__/*
+/src/*.test.ts
+/src/*.test.d.ts
+/src/*.test.js
+/src/*.test.js.map
+/src/*.spec.ts
+/src/*.spec.d.ts
+/src/*.spec.js
+/src/*.spec.js.map
+
+# Node Modules
+/node_modules
+
+# Log Files
 *.log
+
+# Other
 *.tgz
 .vscode

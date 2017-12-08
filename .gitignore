@@ -6,3 +6,10 @@
 
 # Node Modules
 /node_modules
+
+# Log Files
+*.log
+
+# Temp Files
+/temp/*
+!/temp/.gitkeep
