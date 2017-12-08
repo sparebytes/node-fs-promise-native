@@ -10,10 +10,11 @@
   "keywords": [
     "fs",
     "promise",
+    "thenable",
     "native",
     "async",
     "await",
-    "typesscript"
+    "typescript"
   ],
   "author": "Franklin Davenport",
   "main": "dist/index.js",
