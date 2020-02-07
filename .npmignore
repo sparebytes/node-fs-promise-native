@@ -23,3 +23,5 @@ tslint.json
 .tsfmt.json
 .editorconfig
 .gitattributes
+.prettierrc
+tsconfig.json
