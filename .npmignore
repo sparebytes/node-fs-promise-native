@@ -9,12 +9,9 @@
 /src/*.spec.js
 /src/*.spec.js.map
 
-# Node Modules
-/node_modules
-
-# Log Files
-*.log
-
 # Other
+.git
+node_modules
 *.tgz
+*.log
 .vscode

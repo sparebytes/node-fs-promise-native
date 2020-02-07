@@ -13,3 +13,6 @@
 # Temp Files
 /temp/*
 !/temp/.gitkeep
+
+# Packs
+*.tgz
