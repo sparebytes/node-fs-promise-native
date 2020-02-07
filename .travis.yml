@@ -1,13 +1,19 @@
 language: node_js
 node_js:
- - "node"
- - "8"
+  - "node"
+  - "8"
+  - "9"
+  - "10"
+  - "11"
+  - "12"
+  - "13"
 
 os:
+  - windows
   - linux
   - osx
 
 cache:
   yarn: true
   directories:
-  - node_modules
+    - node_modules

@@ -1,6 +1,6 @@
 {
   "name": "fs-promise-native",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Export promisified fs functions",
   "license": "MIT",
   "repository": {
@@ -20,19 +20,19 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepublishOnly": "npm run build",
+    "prepack": "yarn run build",
     "clean": "rimraf dist src/**/*.js src/**/*.js.map src/**/*.d.ts",
-    "build": "npm run clean && tsc",
+    "build": "yarn run clean && tsc",
     "build:watch": "tsc -w",
     "test": "jest"
   },
   "devDependencies": {
-    "@types/jest": "^21.1.8",
-    "@types/node": "^8.0.27",
-    "jest": "^21.2.1",
-    "rimraf": "^2.5.4",
-    "ts-jest": "^21.2.4",
-    "typescript": "^2.6.1"
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.0",
+    "jest": "^25.1.0",
+    "rimraf": "^3.0.1",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
   },
   "engines": {
     "node": ">=8.0.0"

@@ -9,15 +9,12 @@
         "experimentalDecorators": true,
         "removeComments": true,
         "noImplicitAny": true,
+        "strict": true,
         "strictNullChecks": true,
         "noImplicitThis": true,
         "declaration": true,
         "outDir": "dist",
         "rootDir": "src"
     },
-    "exclude": [
-        "__tests__",
-        "**/*.test.ts",
-        "**/*.spec.ts"
-    ]
+    "exclude": ["__tests__", "**/*.test.ts", "**/*.spec.ts"]
 }
